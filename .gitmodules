@@ -1,0 +1,3 @@
+[submodule "src/lib/yabai.wiki"]
+	path = src/lib/yabai.wiki
+	url = https://github.com/koekeishiya/yabai.wiki.git
