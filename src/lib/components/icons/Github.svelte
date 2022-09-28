@@ -1,23 +1,26 @@
 <svg
   id="github"
   xmlns="http://www.w3.org/2000/svg"
-  width="28"
-  height="28"
+  width="24"
+  height="24"
   viewBox="0 0 24 24"
 >
   <style>
     #github:hover path {
-      fill: #555;
+      fill: #aaa;
+    }
+    #github path {
+      fill: #eee;
     }
 
-    @media (prefers-color-scheme: dark) {
+    /* @media (prefers-color-scheme: dark) {
       path {
         fill: #ebeeef;
       }
       #github:hover path {
         fill: #aaa;
       }
-    }
+    } */
   </style>
 
   <path

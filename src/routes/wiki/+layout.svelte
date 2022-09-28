@@ -2,8 +2,7 @@
   import SideNav from "$lib/components/SideNav.svelte";
 </script>
 
-<SideNav />
-<!-- pl-64 mathes the SideNAv width -->
-<div class="container mx-auto pl-64">
+<div class="mx-auto flex h-full min-h-0 w-full max-w-6xl space-x-6 p-6">
+  <SideNav />
   <slot />
 </div>

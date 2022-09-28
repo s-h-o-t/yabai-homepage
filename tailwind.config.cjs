@@ -4,10 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: ({ colors }) => ({
-        base: colors.slate,
+        base: colors.neutral,
       }),
       fontFamily: {
         sans: ["Poppins"],
+        mono: ["FiraCode"],
       },
       fontWeight: {
         normal: 300,

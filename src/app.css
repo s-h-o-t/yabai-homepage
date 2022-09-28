@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  background-image: url("$lib/assets/images/wallpaper.svg");
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+}
+
 /* poppins-100 - latin */
 @font-face {
   font-family: "Poppins";
@@ -42,9 +49,19 @@
     /* Chrome 26+, Opera 23+, Firefox 39+ */
       url("$lib/assets/fonts/poppins-v20-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+/* Fira Code */
+@font-face {
+  font-family: "FiraCode";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+    url("$lib/assets/fonts/FiraCode-Regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("$lib/assets/fonts/FiraCode-Regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
-h1 {
-  @apply mt-10 font-bold;
+/* h1 {
+  @apply font-bold;
   font-size: 30pt;
 }
 
@@ -64,4 +81,4 @@ p {
 
 pre {
   @apply mt-2 mb-2 overflow-auto rounded p-2 dark:bg-base-900;
-}
+} */

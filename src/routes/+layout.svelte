@@ -3,5 +3,7 @@
   import "../app.css";
 </script>
 
-<Navbar />
-<slot />
+<div class="flex h-screen flex-col">
+  <Navbar />
+  <slot />
+</div>
