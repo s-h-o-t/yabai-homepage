@@ -5,7 +5,7 @@
 
 <div class="flex flex-col justify-between">
   <nav
-    class="relative h-[75%] w-[250px] shrink-0 overflow-auto rounded-lg bg-base-100 bg-opacity-50 backdrop-blur-lg hover:bg-opacity-80 hover:outline hover:outline-yellow-500 dark:bg-base-800 dark:bg-opacity-70 dark:backdrop-blur-lg hover:dark:bg-opacity-90 dark:hover:outline-yellow-500"
+    class="relative h-[75%] w-[250px] shrink-0 overflow-auto rounded-lg bg-base-100 bg-opacity-50 backdrop-blur-lg hover:bg-opacity-80 hover:ring hover:ring-yellow-500 dark:bg-base-800 dark:bg-opacity-70 dark:backdrop-blur-lg hover:dark:bg-opacity-90 dark:hover:outline-yellow-500"
   >
     <div
       class="absolute h-8 w-full rounded-t-lg border-b border-base-400 bg-base-200 text-center shadow dark:border-base-500 dark:bg-base-700"
@@ -49,18 +49,19 @@
       >
     </div>
   </nav>
-
   <div class="h-[25%] w-[250px] pt-6 ">
     <div
-      class="relative h-full w-[250px] shrink-0 overflow-auto rounded-lg bg-base-100 bg-opacity-50 backdrop-blur-lg hover:bg-opacity-90 hover:outline hover:outline-yellow-500 dark:bg-base-800 dark:bg-opacity-70 dark:backdrop-blur-lg dark:hover:bg-opacity-90 dark:hover:outline-yellow-500"
+      class="relative h-full w-[250px] shrink-0 overflow-auto rounded-lg bg-base-100 bg-opacity-50 backdrop-blur-lg hover:bg-opacity-90 hover:ring hover:ring-yellow-500 dark:bg-base-800 dark:bg-opacity-70 dark:backdrop-blur-lg dark:hover:bg-opacity-90 dark:hover:outline-yellow-500"
     >
       <div
         class="absolute h-8 w-full rounded-t-lg border-b border-base-400 bg-base-200 text-center shadow dark:border-base-500 dark:bg-base-700"
       >
         <div class="mt-1 text-base-500 dark:text-base-400">Logo.svg</div>
       </div>
-      <div class="py-auto flex min-h-full p-3 pt-8">
-        <Logo />
+      <div class="py-auto grid h-full overflow-auto pt-8">
+        <div class="my-auto">
+          <Logo />
+        </div>
       </div>
     </div>
   </div>
