@@ -6,7 +6,7 @@
 
 <div
   id="wrapper"
-  class="relative h-full w-full min-w-0 rounded-lg bg-base-100 bg-opacity-50 backdrop-blur-lg hover:bg-opacity-80 hover:ring hover:ring-yellow-500 dark:bg-base-800 dark:bg-opacity-70 dark:backdrop-blur-lg hover:dark:bg-opacity-90 dark:hover:outline-yellow-500"
+  class="relative h-full w-full min-w-0 rounded-lg bg-base-100 bg-opacity-50 shadow-lg backdrop-blur-lg hover:bg-opacity-80 hover:ring hover:ring-yellow-500 dark:bg-base-800 dark:bg-opacity-70 dark:backdrop-blur-lg hover:dark:bg-opacity-90 dark:hover:outline-yellow-500"
 >
   <div
     class="absolute h-8 w-full rounded-t-lg border-b border-base-400 bg-base-200 text-center shadow dark:border-base-500 dark:bg-base-700"
